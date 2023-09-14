@@ -1,0 +1,53 @@
+
+.location {
+    background-color: #072226;
+    color: white;
+    padding: 1em;
+    flex-wrap:wrap;
+    width: 390px;
+    margin: 3% auto;
+    border-radius: 0.7em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0.8em rgba(114, 114, 114, 0.377);
+    
+}
+
+.location__name {
+    font-size: 1.2em;
+    color: #15B2C8;
+    
+}
+
+.location__list {
+    display: flex;
+    align-items: baseline;
+    align-content: space-around; 
+    gap: 3em;
+    
+}
+
+.location__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    
+}
+
+.location__label {
+    font-size: 1em;
+    padding-top: 1em;
+    font-weight: 500;
+    align-self: center;
+    
+}
+
+.location__value {
+    font-size: 0.8em;
+    padding-top: 1em;
+    align-self:center;
+    color: rgb(192, 192, 192);
+    
+}
